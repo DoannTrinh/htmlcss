@@ -15,19 +15,7 @@
 .right img{
     width: 70px;
 }
-.right-content{
-    align-items: center;
-    /* vertical-align: middle; */
-    /* margin-top: auto; */
-    /* margin-bottom: auto; */
-    /* padding-top = padding-bottom; */
-    /* position: absolute; */
-    display: table-cell; /* Important */ 
-    vertical-align: middle;
-}
-.right-content div{
-    padding: 10px;
-}
+/* cai nay commit sau */
 .banner{
     display:flex;
     justify-content: center;
