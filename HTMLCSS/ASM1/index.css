@@ -1,5 +1,5 @@
 .menu div{
-    display: inline;
+    display: inline-block;
 }
 .right{
     margin-left: auto;
@@ -14,6 +14,16 @@
 }
 .right-content{
     align-items: center;
+    /* vertical-align: middle; */
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+    /* padding-top = padding-bottom; */
+    /* position: absolute; */
+    display: table-cell; /* Important */ 
+    vertical-align: middle;
+}
+.right-content div{
+    padding: 10px;
 }
 .banner{
     display:flex;
@@ -31,28 +41,30 @@
 }
 .content-image{
     display: grid;
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns: 33% 33% 33%;
+}
+.content-image img{
+    width: 100%;
+    border-radius: 10px;
 }
 .image1 img{
-    width: 50%;
+    margin-bottom: 5px;
+    /* margin-right: 10px; */
 }
-.image2 img{
-    width: 50%;
+.image1{
+    margin-right: 10px;
 }
 .image3 img{
-    width: 100%;
+    /* margin-top: 10px; */
+    /* margin-left: 5px; */
 }
-.image4 img{
-    width: 50%;
-}
-.image5 img{
-    width: 50%;
-}
+
 .information{
     display: grid;
     grid-template-columns: 50% 50%;
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
 }
 .information-right{
     margin-left: auto;
