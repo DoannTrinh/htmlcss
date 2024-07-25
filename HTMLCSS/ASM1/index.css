@@ -4,7 +4,10 @@
 .right{
     margin-left: auto;
     float: right;
-    grid-column-gap: 30px;
+}
+.right div{
+    padding-right: 30px;
+    vertical-align: middle;
 }
 .left img{
     width: 50px;
